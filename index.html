@@ -12,16 +12,22 @@
       <title>MEGATEAM limited | Accueil</title>
   </head>
   <body>
-    <nav>
+    <nav class="nav-fixed">
         <div class="nav-wrapper blue">
-          <div alt="Logo" class="mg_logo"></div>
+          <a href="index.html" alt="Logo" class="mg_logo"></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="sass.html">Projets</a></li>
-            <li><a href="badges.html">Documentations</a></li>
-            <li><a href="collapsible.html">Connexion</a></li>
+            <li><a href="projet.html">Projets</a></li>
+            <li><a href="doc.html">Documentations</a></li>
+            <li><a href="connexion.html">Connexion</a></li>
           </ul>
         </div>
     </nav>
+    <!-- Sidebar navigation -->
+    <ul id="slide-out" class="side-nav">
+        <li id="menu_load"><a href="#">Open<i class="mdi-file-file-upload left"></i></a></li>
+        <li id="menu_save"><a href="#">Save<i class="mdi-file-file-download left"></i></a></li>
+    <li id="menu_delete"><a href="#">Delete All<i class="mdi-action-delete left"></i></a></li>
+  </ul>
     <!-- Contenu -->
     <div id="index-banner" class="parallax-container">
         <div class="section no-pad-bot">
@@ -116,5 +122,6 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="js/init.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

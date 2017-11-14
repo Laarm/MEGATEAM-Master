@@ -7,12 +7,10 @@ MADE BY @LAARMFR
     left: 1%;
     right: auto;
     text-align: center;
-    background:url(img/mg_logo.jpg) no-repeat;
+    height: 100%; width: 15%; display: block; background-image: url(https://image.noelshack.com/fichiers/2017/46/2/1510657666-mg-logo.png); background-repeat: no-repeat; background-size: 100%, 100%; background-position: center;
   }
 }
-.mg_logo {
-  height: 100%; width: 15%; display: block; background-image: url(https://image.noelshack.com/fichiers/2017/46/2/1510657666-mg-logo.png); background-repeat: no-repeat; background-size: 100%, 100%; background-position: center;
-}
+
 footer {
   text-align: center;
   position: fixed;
@@ -23,3 +21,25 @@ footer {
 .mg_center {
   text-align: center;
 }
+.mg_blue {
+  color: #2196F3;
+}
+.top5 {
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+.bgblue {
+  background-color: #c6e5ff;
+}
+.nav-fixed {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-bottom: 0px;
+    z-index: 997;
+  }
+  body {
+    padding-top: 56px;
+    margin-bottom: 5%;
+  }

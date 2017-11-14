@@ -1,0 +1,25 @@
+/*
+MADE BY @LAARMFR
+*/
+@media screen and (min-width:768px){
+  .mg_logo {
+    position: absolute;
+    left: 1%;
+    right: auto;
+    text-align: center;
+    background:url(img/mg_logo.jpg) no-repeat;
+  }
+}
+.mg_logo {
+  height: 100%; width: 15%; display: block; background-image: url(https://image.noelshack.com/fichiers/2017/46/2/1510657666-mg-logo.png); background-repeat: no-repeat; background-size: 100%, 100%; background-position: center;
+}
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.mg_center {
+  text-align: center;
+}
